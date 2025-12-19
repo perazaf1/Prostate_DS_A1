@@ -1,1 +1,39 @@
-.env
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données volumineuses (optionnel)
+*.csv
+*.xlsx
+data/raw/
+
+# Fichiers temporaires
+*.tmp
+.cache/
+.pytest_cache/
